@@ -1,0 +1,77 @@
+/* Common Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 90%;
+    height: auto;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #575757;
+}
+
+p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #7a7a7a;
+    margin: 15px 5px;
+}
+
+a{
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: red;
+    text-decoration: none;
+    font-weight: bold;
+    color: wheat;
+}
+
+span{
+    color: orange;
+}
+
+.container{
+    /* margin: 20px; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container > *{
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+/* Header Css */
+
+.top-body-text{
+    margin: 0px;
+    width: 50%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.top-body-text a:hover{
+    background-color: rgb(250, 183, 59);
+    color: white;
+    zoom: 110%;
+}
+
+.top-body-img{
+    width: 40%;
+    align-items: center;
+}
