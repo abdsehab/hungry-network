@@ -32,6 +32,7 @@ p{
 
 a{
     padding: 10px 30px;
+    margin: 10px 0px;
     border-radius: 25px;
     background-color: red;
     text-decoration: none;
@@ -39,8 +40,15 @@ a{
     color: wheat;
 }
 
+a:hover{
+    background-color: rgb(250, 183, 59);
+    color: white;
+    zoom: 110%;
+}
+
 span{
     color: orange;
+    font-weight: bold;
 }
 
 .container{
@@ -61,17 +69,51 @@ span{
 .top-body-text{
     margin: 0px;
     width: 50%;
-    text-align: center;
+    text-align: center ;
     padding-top: 10%;
 }
 
-.top-body-text a:hover{
+/* .top-body-text a:hover{
     background-color: rgb(250, 183, 59);
     color: white;
     zoom: 110%;
-}
+} */
 
 .top-body-img{
     width: 40%;
     align-items: center;
 }
+
+/* Middle Body Css */
+#mid-body{
+    background: url(images/shapes/Frame\ 56.jpg);
+    
+    margin: 5% 1%;
+}
+
+.mid-body-text h2{
+    color: #707070;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mid-body-text p{
+    font-size: 18px;
+    margin: 20px 10px;
+}
+
+.mid-body-text{
+    margin: 10% 10px;
+}
+
+.concet-me-button{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+ .mid-body-img{
+    width: 40%;
+    align-items: center;
+} 
