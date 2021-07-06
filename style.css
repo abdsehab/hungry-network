@@ -20,7 +20,8 @@ body{
 h1{
     font-size: 60px;
     font-weight: bold;
-    color: #575757;
+    cursor: default;
+    color: #575757; 
 }
 
 p{
@@ -160,9 +161,7 @@ span{
 
 .lower-body-recipe{
     display: flex;
-    flex-direction: row;
-    margin-left: 8%;
-    
+    flex-direction: row;  
 }
 
 .lower-body-recipe img{
@@ -170,7 +169,6 @@ span{
     width: 90%;
     align-items: center;
 }
-
 
 
 .lower-body-recipe p{
@@ -187,7 +185,12 @@ span{
 }
 
 .lower-body-box:hover{
+    background-color: rgb(190, 237, 255);
     zoom: 101%;
+}
+
+.lower-body-box img{
+    border-radius: 20px;
 }
 
 .lower-body-box h3{
@@ -202,7 +205,7 @@ span{
 
 /* Our Reach Section */
 #Our-Reach{
-    margin: 5% 10% 5% 16%;
+    margin: 5%  ;
     padding: 20px 0px;
     background-color: rgba(255, 120, 96, 0.15);
     display: flex;
@@ -293,7 +296,7 @@ footer ul{
 
 footer a{
     margin: 5px;
-    padding: 10px;
+    padding: 5px 8px;
     text-align: center;
     background-color: #2e2e2e;
     border-radius: 50%;
