@@ -71,6 +71,15 @@ span{
     width: 50%;
     text-align: center ;
     padding-top: 10%;
+    position: relative;
+}
+
+/* Marquee Design */
+
+.marquee{
+    position: absolute;
+    top: 10%;
+    color: red;
 }
 
 /* .top-body-text a:hover{
@@ -92,28 +101,30 @@ span{
 }
 
 .mid-body-text h2{
-    color: #707070;
+    color: #2e2e2e;
     font-size: 40px;
     text-align: center;
     font-weight: bold;
 }
 
 .mid-body-text p{
+    color: rgb(1, 58, 107);
     font-size: 18px;
     margin: 20px 10px;
 }
 
 .mid-body-text{
-    margin: 10% 10px;
+    margin: 12% 10px;
 }
 
 .concet-me-button{
     margin-top: 30px;
     text-align: center;
-}
-
+} 
 
  .mid-body-img{
+    margin: 10px;
     width: 40%;
+    justify-content: center;
     align-items: center;
 } 
