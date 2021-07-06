@@ -235,7 +235,8 @@ span{
     border-radius: 20px;
 }
 
-#name {
+
+.form-design{
     width: 80%;
     padding: 8px;
     margin: 10px;
@@ -243,20 +244,20 @@ span{
     border-radius: 10px;
 }
 
-#email{
-    width: 80%;
-    padding: 8px;
+#submit{
     margin: 10px;
-    border-bottom: 2px solid;
+    padding: 10px 20px;
     border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 154, 154);
+    background-color: rgb(255, 166, 0);
+    color: rgb(255, 255, 255);
 }
-#message{
-    width: 80%;
-    padding: 8px;
-    margin: 10px;
-    border-bottom: 2px solid;
-    border-radius: 10px;
-
+#submit:hover{
+    background-color: #2e2e2e;
+    color: white;
+    
 }
 
 label{
@@ -284,3 +285,17 @@ footer p{
     font-size: 16px;
 }
 
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer a{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #2e2e2e;
+    border-radius: 50%;
+
+}
